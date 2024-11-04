@@ -5,7 +5,7 @@ document.getElementById('question1').addEventListener('submit', function(event) 
 
     var conf1 = "Incorreto";
 
-    if(res1 == 75) {
+    if(res1 == 5) {
         conf1 = "Você Acertou"
     }
 
@@ -19,7 +19,7 @@ document.getElementById('question2').addEventListener('submit', function(event) 
 
     var conf1 = "Incorreto";
 
-    if(res1 == 64) {
+    if(res1 == 2) {
         conf1 = "Você Acertou"
     }
 
@@ -33,7 +33,7 @@ document.getElementById('question3').addEventListener('submit', function(event) 
 
     var conf1 = "Incorreto";
 
-    if(res1 == 28) {
+    if(res1 == 1) {
         conf1 = "Você Acertou"
     }
 
@@ -47,7 +47,7 @@ document.getElementById('question4').addEventListener('submit', function(event) 
 
     var conf1 = "Incorreto";
 
-    if(res1 == 3) {
+    if(res1 == 2) {
         conf1 = "Você Acertou"
     }
 
@@ -61,67 +61,11 @@ document.getElementById('question5').addEventListener('submit', function(event) 
 
     var conf1 = "Incorreto";
 
-    if(res1 == 132) {
-        conf1 = "Você Acertou"
-    }
-
-    document.getElementById('result5').textContent = conf1;
-});
-
-document.getElementById('question6').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    var res1 = Number(document.getElementById('res6').value);
-
-    var conf1 = "Incorreto";
-
-    if(res1 == 16) {
-        conf1 = "Você Acertou"
-    }
-
-    document.getElementById('result6').textContent = conf1;
-});
-
-document.getElementById('question7').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    var res1 = Number(document.getElementById('res7').value);
-
-    var conf1 = "Incorreto";
-
-    if(res1 == 3) {
-        conf1 = "Você Acertou"
-    }
-
-    document.getElementById('result7').textContent = conf1;
-});
-
-document.getElementById('question8').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    var res1 = Number(document.getElementById('res8').value);
-
-    var conf1 = "Incorreto";
-
-    if(res1 == 1) {
-        conf1 = "Você Acertou"
-    }
-
-    document.getElementById('result8').textContent = conf1;
-});
-
-document.getElementById('question9').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    var res1 = Number(document.getElementById('res9').value);
-
-    var conf1 = "Incorreto";
-
     if(res1 == 4) {
         conf1 = "Você Acertou"
     }
 
-    document.getElementById('result9').textContent = conf1;
+    document.getElementById('result5').textContent = conf1;
 });
 
 const start_btn = document.querySelector(".start_btn button");
@@ -148,11 +92,11 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     showQuetions(0); 
     queCounter(1); 
-    startTimer(15);
+    startTimer(300);
     startTimerLine(0);
 }
 
-let timeValue =  15;
+let timeValue =  300;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
