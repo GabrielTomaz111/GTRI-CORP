@@ -6,8 +6,8 @@ let questions = [
     answer: "a) leva à formação de duas células-filhas com o mesmo número de cromossomos que a célula-mãe.",
     options: [
       "a) leva à formação de duas células-filhas com o mesmo número de cromossomos que a célula-mãe.",
-      "b) leva à formação de duas células-filhas com metade do número de cromossomos que a célula-mãe.,
-      "c) leva à formação de quatro células-filhas com o mesmo número de cromossomos que a célula-mãe.,
+      "b) leva à formação de duas células-filhas com metade do número de cromossomos que a célula-mãe.",
+      "c) leva à formação de quatro células-filhas com o mesmo número de cromossomos que a célula-mãe.",
       "d) leva à formação de quatro células-filhas com metade do número de cromossomos que a célula-mãe."
     ]
   },
