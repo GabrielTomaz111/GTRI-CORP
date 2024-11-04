@@ -905,8 +905,8 @@ button[type=submit]{
 
 .quiz_box header .timer{
     color: #00850b;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    background: #d8ffcc;
+    border: 1px solid #b8ffc4;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
@@ -940,7 +940,7 @@ button[type=submit]{
     position: absolute;
     bottom: 0px;
     left: 0px;
-    height: 3px;
+    height: 5px;
     background: #318f28;
 }
 
@@ -960,7 +960,7 @@ section .option_list{
 }
 
 section .option_list .option{
-    background: aliceblue;
+    background: rgb(240, 255, 241);
     border: 1px solid #318f28;
     border-radius: 5px;
     padding: 8px 15px;
@@ -979,8 +979,8 @@ section .option_list .option:last-child{
 
 section .option_list .option:hover{
     color: #318f28;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    background: #ccffd7;
+    border: 1px solid #beffb8;
 }
 
 section .option_list .option.correct{
