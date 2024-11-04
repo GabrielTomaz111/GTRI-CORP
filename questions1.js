@@ -2,58 +2,58 @@
 let questions = [
     {
     numb: 1,
-    question: "Sabendo que a soma dos ângulos internos de um quadrilátero é sempre igual a 360º, em um quadrilátero em específico, a medida dos seus ângulos internos é proporcional aos números 3, 5, 6, 10. O valor do menor ângulo é:",
-    answer: "B) 45º",
+    question: "A mitose é um processo de divisão celular que:",
+    answer: "a) leva à formação de duas células-filhas com o mesmo número de cromossomos que a célula-mãe.",
     options: [
-      "A) 15º",
-      "B) 45º",
-      "C) 60º",
-      "D) 75º"
+      "a) leva à formação de duas células-filhas com o mesmo número de cromossomos que a célula-mãe.",
+      "b) leva à formação de duas células-filhas com metade do número de cromossomos que a célula-mãe.,
+      "c) leva à formação de quatro células-filhas com o mesmo número de cromossomos que a célula-mãe.,
+      "d) leva à formação de quatro células-filhas com metade do número de cromossomos que a célula-mãe."
     ]
   },
     {
     numb: 2,
-    question: "Sobre a classificação dos ângulos, marque a alternativa correta:",
-    answer: "C) Um ângulo é classificado como agudo quando a sua medida é menor do que 90º.",
+    question: "Sobre a mitose, marque a alternativa incorreta:",
+    answer: "d) Ocorre durante a formação dos gametas humanos.",
     options: [
-      "A) Um ângulo é classificado como reto quando ele possui medida menor ou igual a 90º.",
-      "B) Dois ângulos são complementares quando a soma deles é igual a 180º.",
-      "C) Um ângulo é classificado como agudo quando a sua medida é menor do que 90º.",
-      "D) Dois ângulos cuja soma é igual a 90º graus são conhecidos como ângulos obtusos."
+      "a) É um processo de divisão celular que, nos seres humanos, é observado em células somáticas..",
+      "b) É importante para o crescimento e desenvolvimento de organismos pluricelulares.",
+      "c) É importante para o processo de renovação tecidual.",
+      "d) Ocorre durante a formação dos gametas humanos."
     ]
   },
     {
     numb: 3,
-    question: "Fernando é um carpinteiro e está separando ripas de madeira de diversos comprimentos para construir estruturas triangulares. Dentre as seguintes opções de trios de ripas, a única capaz de formar um triângulo é"
+    question: "As células são estruturas conhecidas como unidades estruturais e funcionais dos organismos vivos. Elas são formadas basicamente por substâncias orgânicas e inorgânicas. São consideradas substâncias inorgânicas:"
     ,
-    answer: "D) 3 cm, 4 cm, 5 cm",
+    answer: "d) água e sais minerais",
     options: [
-      "A) 3 cm, 7 cm, 11 cm",
-      "B) 6 cm, 4 cm, 12 cm",
-      "C) 7 cm, 9 cm, 18 cm",
-      "D) 3 cm, 4 cm, 5 cm"
+      "a) lipídios e proteínas.",
+      "b) proteínas e água.",
+      "c) sais minerais e vitaminas.",
+      "d) água e sais minerais"
     ]
   },
     {
     numb: 4,
-    question: "Os polígonos podem ser classificados como convexos ou não convexos, regulares ou não regulares. A respeito dessa classificação, assinale a alternativa correta",
-    answer: "A) Um polígono é convexo quando qualquer segmento de reta, que possui extremidades em seu interior, não possui pontos fora dele.",
+    question: "A ancilostomose, ou ancilostomíase, é uma doença causada por parasitas das espécies Necator americanus e Ancylostoma duodenale. Esses organismos são classificados como",
+    answer: "a) nematoides.",
     options: [
-      "A) Um polígono é convexo quando qualquer segmento de reta, que possui extremidades em seu interior, não possui pontos fora dele.",
-      "B) Um polígono é dito convexo quando possui todos os lados iguais.",
-      "C) Um polígono é dito convexo quando possui todos os ângulos iguais.",
-      "D) Um polígono é regular quando possui lados congruentes. "
+      "a) nematoides.",
+      "b) protozoários.",
+      "c) platelmintos.",
+      "d) bactérias. "
     ]
   },
     {
     numb: 5,
-    question: "Um polígono convexo possui 25 lados. Qual é o número total de diagonais que esse polígono possui? ",
-    answer: "D) 275",
+    question: "Vacúolos são estruturas existentes em diferentes tipos celulares, entretanto, o vacúolo de suco celular é uma estrutura típica da célula vegetal. Observe as funções abaixo e marque aquela que não pode ser atribuída ao vacúolo. ",
+    answer: "b) Participa do processo de respiração celular.",
     options: [
-      "A) 200",
-      "B) 225",
-      "C) 250",
-      "D) 275"
+      "a) Atua no armazenamento de substâncias.",
+      "b) Participa do processo de respiração celular.",
+      "c) Realiza a digestão de componentes celulares.",
+      "d) Promove o controle osmótico."
     ]
   },
 ];
