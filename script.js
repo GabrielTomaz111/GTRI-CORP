@@ -148,11 +148,11 @@ continue_btn.onclick = ()=>{
     quiz_box.classList.add("activeQuiz");
     showQuetions(0); 
     queCounter(1); 
-    startTimer(15);
+    startTimer(300);
     startTimerLine(0);
 }
 
-let timeValue =  15;
+let timeValue =  300;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
